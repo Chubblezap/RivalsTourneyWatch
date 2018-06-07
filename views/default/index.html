@@ -1,0 +1,38 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var get_tourneys_url = "{{=URL('api', 'get_tourneys', hash_vars=False)}}";
+</script>
+
+
+{{end}}
+
+<div class="main_content">
+  <div id="vue-div" class="display:none">
+
+      <div class="logocontainer">
+          <div class="bg1 center">
+              <img class="padded" height="188px" width="360px" src="http://www.rivalsofaether.com/img/pixel_logo.png">
+          </div>
+      </div>
+      <div class="bar container">
+          <div class="selector padded">
+              <select v-model="selected_tourney">
+                  <option disabled="disabled" value="">Select tourney...</option>
+                  <option v-for="tourney in tourneys">${tourney.title}</option>
+              </select>
+          </div>
+      </div>
+      <div class="playercontainer center">
+          <div v-for="player in players" class="infocard rounded padded lifted container">
+              ${player}
+          </div>
+      </div>
+
+  </div>
+</div>
+
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>
