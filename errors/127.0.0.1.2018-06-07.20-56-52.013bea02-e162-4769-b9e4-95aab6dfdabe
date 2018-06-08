@@ -1,0 +1,911 @@
+(dp1
+S'output'
+p2
+S"<class 'urllib2.HTTPError'> HTTP Error 404: Not Found"
+p3
+sS'layer'
+p4
+S'C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers/api.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 000000000AE93530, file "C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers/api.py", line 1>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'urllib2'"
+p13
+sg6
+S'404'
+p14
+sS'__getslice__'
+p15
+S"<method-wrapper '__getslice__' of HTTPError object>"
+p16
+sS'__str__'
+p17
+S'<bound method HTTPError.__str__ of HTTPError()>'
+p18
+sS'__reduce__'
+p19
+S'<built-in method __reduce__ of HTTPError object>'
+p20
+sS'strerror'
+p21
+S'None'
+p22
+sS'__dict__'
+p23
+S"{'__iter__': <bound method _fileobject.__iter__ of <socket._fileobject object>>, 'code': 404, 'fileno': <bound method _fileobject.fileno of <socket._fileobject object>>, 'fp': <addinfourl at 202518472L whose fp = <socket._fileobject object>>, 'hdrs': <httplib.HTTPMessage instance>, 'headers': <httplib.HTTPMessage instance>, 'msg': 'Not Found', 'next': <bound method _fileobject.next of <socket._fileobject object>>, 'read': <bound method _fileobject.read of <socket._fileobject object>>, 'readline': <bound method _fileobject.readline of <socket._fileobject object>>, ...}"
+p24
+sS'close'
+p25
+S'<bound method HTTPError.close of HTTPError()>'
+p26
+sS'__sizeof__'
+p27
+S'<built-in method __sizeof__ of HTTPError object>'
+p28
+sS'next'
+p29
+S'<bound method _fileobject.next of <socket._fileobject object>>'
+p30
+sS'__weakref__'
+p31
+S'None'
+p32
+sS'message'
+p33
+S"''"
+p34
+sS'__init__'
+p35
+S'<bound method HTTPError.__init__ of HTTPError()>'
+p36
+sS'__setattr__'
+p37
+S"<method-wrapper '__setattr__' of HTTPError object>"
+p38
+sS'__reduce_ex__'
+p39
+S'<built-in method __reduce_ex__ of HTTPError object>'
+p40
+sS'__new__'
+p41
+S'<built-in method __new__ of type object>'
+p42
+sS'headers'
+p43
+S'<httplib.HTTPMessage instance>'
+p44
+sS'errno'
+p45
+S'None'
+p46
+sS'readlines'
+p47
+S'<bound method _fileobject.readlines of <socket._fileobject object>>'
+p48
+sS'__format__'
+p49
+S'<built-in method __format__ of HTTPError object>'
+p50
+sS'__class__'
+p51
+S"<class 'urllib2.HTTPError'>"
+p52
+sS'filename'
+p53
+S"'https://api.smash.gg/tournament/https://api.smas...expand[]=tagsByContainer?expand[]=tagsByContainer'"
+p54
+sS'_HTTPError__super_init'
+p55
+S'<bound method HTTPError.__init__ of HTTPError()>'
+p56
+sS'msg'
+p57
+S"'Not Found'"
+p58
+sS'__doc__'
+p59
+S"'Raised when HTTP error occurs, but also acts like non-error return'"
+p60
+sS'fp'
+p61
+S'<addinfourl at 202518472L whose fp = <socket._fileobject object>>'
+p62
+sS'hdrs'
+p63
+S'<httplib.HTTPMessage instance>'
+p64
+sS'__getitem__'
+p65
+S"<method-wrapper '__getitem__' of HTTPError object>"
+p66
+sS'__setstate__'
+p67
+S'<built-in method __setstate__ of HTTPError object>'
+p68
+sS'read'
+p69
+S'<bound method _fileobject.read of <socket._fileobject object>>'
+p70
+sS'__getattribute__'
+p71
+S"<method-wrapper '__getattribute__' of HTTPError object>"
+p72
+sS'args'
+p73
+S'()'
+p74
+sS'__iter__'
+p75
+S'<bound method _fileobject.__iter__ of <socket._fileobject object>>'
+p76
+sS'__subclasshook__'
+p77
+S'<built-in method __subclasshook__ of type object>'
+p78
+sS'readline'
+p79
+S'<bound method _fileobject.readline of <socket._fileobject object>>'
+p80
+sS'__unicode__'
+p81
+S'<built-in method __unicode__ of HTTPError object>'
+p82
+sS'info'
+p83
+S'<bound method HTTPError.info of HTTPError()>'
+p84
+sS'fileno'
+p85
+S'<bound method _fileobject.fileno of <socket._fileobject object>>'
+p86
+sS'getcode'
+p87
+S'<bound method HTTPError.getcode of HTTPError()>'
+p88
+sS'url'
+p89
+S"'https://api.smash.gg/tournament/https://api.smas...expand[]=tagsByContainer?expand[]=tagsByContainer'"
+p90
+sS'reason'
+p91
+S"'Not Found'"
+p92
+sS'geturl'
+p93
+S'<bound method HTTPError.geturl of HTTPError()>'
+p94
+sS'__delattr__'
+p95
+S"<method-wrapper '__delattr__' of HTTPError object>"
+p96
+sS'__repr__'
+p97
+S"<method-wrapper '__repr__' of HTTPError object>"
+p98
+sS'__hash__'
+p99
+S"<method-wrapper '__hash__' of HTTPError object>"
+p100
+ssS'evalue'
+p101
+S'HTTP Error 404: Not Found'
+p102
+sS'request'
+p103
+cgluon.html
+XML_unpickle
+p104
+(S'sPc\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>RivalsTourneyWatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>api</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-ef4d6863-01da-4d5a-9e27-d1a9b3c35c38<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_backend</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-b358ca7b-9872-4a18-9d56-acaafb1ead5d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_rivalstourneywatch</td><td style="vertical-align:top;">:</td><td><div>3:bb017aec-6934-45a7-b0d1-24117cd39c3e<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>application/json, text/javascript, */*; q=0.01</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_backend=127.0.0.1-b358ca7b-9872-4a18-9d56-acaafb1ead5d; session_id_admin=127.0.0.1-ef4d6863-01da-4d5a-9e27-d1a9b3c35c38; session_id_rivalstourneywatch=&quot;3:bb017aec-6934-45a7-b0d1-24117cd39c3e&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_PRAGMA</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/RivalsTourneyWatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REQUESTED_WITH</td><td style="vertical-align:top;">:</td><td><div>XMLHttpRequest</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/RivalsTourneyWatch/api/get_tourneys</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div>t=https%3A%2F%2Fapi.smash.gg%2Ftournament%2Frivals-championship-series%3Fexpand%5B%5D%3DtagsByContainer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>61935</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>Star_Destroyer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\RivalsTourneyWatch\\\\&#x27;, &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\backend\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x407e1c8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Star_Destroyer&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;RivalsTourneyWatch&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>application/json, text/javascript, */*; q=0.01</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_backend=127.0.0.1-b358ca7b-9872-4a18-9d56-acaafb1ead5d; session_id_admin=127.0.0.1-ef4d6863-01da-4d5a-9e27-d1a9b3c35c38; session_id_rivalstourneywatch=&quot;3:bb017aec-6934-45a7-b0d1-24117cd39c3e&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_pragma</td><td style="vertical-align:top;">:</td><td><div>no-cache</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/RivalsTourneyWatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_requested_with</td><td style="vertical-align:top;">:</td><td><div>XMLHttpRequest</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::d0d0:223e:d3a5:166a%11</div></td></tr><tr><td><div>169.233.80.143</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>fe80::200:5efe:169.233.80.143%20</div></td></tr><tr><td><div>fe80::1c3a:5789:3ace:b57b%13</div></td></tr><tr><td><div>Star_Destroyer</div></td></tr><tr><td><div>25.51.6.231</div></td></tr><tr><td><div>Star_Destroyer.ucsc.edu</div></td></tr><tr><td><div>2620:9b::1933:6e7</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/RivalsTourneyWatch/api/get_tourneys</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div>t=https%3A%2F%2Fapi.smash.gg%2Ftournament%2Frivals-championship-series%3Fexpand%5B%5D%3DtagsByContainer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>61935</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/RivalsTourneyWatch/api/get_tourneys?t=https%3A%2F%2Fapi.smash.gg%2Ftournament%2Frivals-championship-series%3Fexpand%5B%5D%3DtagsByContainer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>Star_Destroyer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_original_uri</td><td style="vertical-align:top;">:</td><td><div>/RivalsTourneyWatch/api/get_tourneys?t=https%3A%2F%2Fapi.smash.gg%2Ftournament%2Frivals-championship-series%3Fexpand%5B%5D%3DtagsByContainer</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.16.1-stable+timestamp.2017.11.14.05.54.25</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0000000001D52150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x00000000040073A8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x000000000B50E138&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x0000000001D52150&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x00000000040073A8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x000000000B50E138&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>get_tourneys</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\admin\\\\&#x27;, &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\RivalsTourneyWatch\\\\&#x27;, &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py\\\\applications\\\\backend\\\\&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x407e1c8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Star_Destroyer&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;C:\\\\Users\\\\Chubblezap\\\\web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;RivalsTourneyWatch&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>C:\\Users\\Chubblezap\\web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::d0d0:223e:d3a5:166a%11</div></td></tr><tr><td><div>169.233.80.143</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>fe80::200:5efe:169.233.80.143%20</div></td></tr><tr><td><div>fe80::1c3a:5789:3ace:b57b%13</div></td></tr><tr><td><div>Star_Destroyer</div></td></tr><tr><td><div>25.51.6.231</div></td></tr><tr><td><div>Star_Destroyer.ucsc.edu</div></td></tr><tr><td><div>2620:9b::1933:6e7</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.16.1-stable+timestamp.2017.11.14.05.54.25</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 6, 7, 20, 56, 52, 827000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/RivalsTourneyWatch/api/get_tourneys</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 6, 8, 3, 56, 52, 827000)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x00000000046A46A0&gt;</div></td></tr></table></div>'
+tRp105
+sS'frames'
+p106
+(lp107
+(dp108
+S'file'
+p109
+S'C:\\Users\\Chubblezap\\web2py\\gluon\\restricted.py'
+p110
+sS'dump'
+p111
+(dp112
+S'environment'
+p113
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p114
+sS'ccode'
+p115
+S'<code object <module> at 000000000AE93530, file ...s\\RivalsTourneyWatch\\controllers/api.py", line 1>'
+p116
+ssS'lnum'
+p117
+I219
+sS'lines'
+p118
+(dp119
+I214
+S'    if environment is None:'
+p120
+sI215
+S'        environment = {}'
+p121
+sI216
+S"    environment['__file__'] = layer"
+p122
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p123
+sI218
+S'    try:'
+p124
+sI219
+S'        exec(ccode, environment)'
+p125
+sI220
+S'    except HTTP:'
+p126
+sI221
+S'        raise'
+p127
+sI222
+S'    except RestrictedError:'
+p128
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p129
+ssS'call'
+p130
+S'(ccode=<code object <module> at 000000000AE93530, file ...s\\RivalsTourneyWatch\\controllers/api.py", line 1>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=r\'C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers/api.py\', scode=<code object <module> at 000000000AE93530, file ...s\\RivalsTourneyWatch\\controllers/api.py", line 1>)'
+p131
+sS'func'
+p132
+S'restricted'
+p133
+sa(dp134
+g109
+S'C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers\\api.py'
+p135
+sg111
+(dp136
+sg117
+I44
+sg118
+(dp137
+I33
+S"                        if (pl['id'] == pID):"
+p138
+sI34
+S"                            pTag = pl['gamerTag']"
+p139
+sI35
+S"                            pName = pl['name']"
+p140
+sI36
+S"                    standings.append(dict([('standing', pStand), ('tag', pTag), ('name', pName)]))"
+p141
+sI37
+S"                sDicts.append(dict([('name', name), ('standings', standings)]))"
+p142
+sI38
+S''
+sI39
+S"    tDict['subleagues'] = sDicts"
+p143
+sI40
+S'    return response.json(dict('
+p144
+sI41
+S'        tDict=tDict'
+p145
+sI42
+S'    ))'
+p146
+ssg130
+S'()'
+p147
+sg132
+S'<module>'
+p148
+sa(dp149
+g109
+S'C:\\Users\\Chubblezap\\web2py\\gluon\\globals.py'
+p150
+sg111
+(dp151
+S'self'
+p152
+S'undefined'
+p153
+sS'f'
+S'<function get_tourneys>'
+p154
+ssg117
+I419
+sg118
+(dp155
+I416
+S'        self.menu = []             # used by the default view layout'
+p156
+sI417
+S'        self.files = []            # used by web2py_ajax.html'
+p157
+sI418
+S'        self._vars = None'
+p158
+sI419
+S'        self._caller = lambda f: f()'
+p159
+sI420
+S'        self._view_environment = None'
+p160
+sI421
+S'        self._custom_commit = None'
+p161
+sI422
+S'        self._custom_rollback = None'
+p162
+sI423
+S"        self.generic_patterns = ['*']"
+p163
+sI414
+S"        self.flash = ''            # used by the default view layout"
+p164
+sI415
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p165
+ssg130
+S'(f=<function get_tourneys>)'
+p166
+sg132
+S'<lambda>'
+p167
+sa(dp168
+g109
+S'C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers\\api.py'
+p169
+sg111
+(dp170
+S'json.loads'
+p171
+S'<function loads>'
+p172
+sS'global json'
+p173
+S"<module 'json' from 'C:\\Users\\Chubblezap\\AppData...\\Programs\\Python\\Anaconda\\lib\\json\\__init__.pyc'>"
+p174
+sS'leagueJSON'
+p175
+g153
+sS'global fetch'
+p176
+S'<function fetch>'
+p177
+sS't'
+S"'https://api.smash.gg/tournament/rivals-championship-series?expand[]=tagsByContainer'"
+p178
+ssg117
+I12
+sg118
+(dp179
+I7
+S''
+sI8
+S'# Here go your api methods.'
+p180
+sI9
+S''
+sI10
+S'def get_tourneys():'
+p181
+sI11
+S'    t = request.vars.t'
+p182
+sI12
+S'    leagueJSON = json.loads(fetch("https://api.smash.gg/tournament/" + t + "?expand[]=tagsByContainer"))'
+p183
+sI13
+S"    tDict = dict([('name', leagueJSON['entities']['tournament']['name'])])"
+p184
+sI14
+S'    subleagueIDs = []'
+p185
+sI15
+S'    sDicts = []'
+p186
+sI16
+S'    # Get subleague IDs (NA, EU)'
+p187
+ssg130
+S'()'
+p188
+sg132
+S'get_tourneys'
+p189
+sa(dp190
+g109
+S'C:\\Users\\Chubblezap\\web2py\\gluon\\tools.py'
+p191
+sg111
+(dp192
+S'urllib2.urlopen'
+p193
+S'<function urlopen>'
+p194
+sS'global urllib2'
+p195
+S"<module 'urllib2' from 'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.pyc'>"
+p196
+sS'html'
+p197
+g153
+sS'req'
+p198
+S'<urllib2.Request instance>'
+p199
+sS').read'
+p200
+g153
+ssg117
+I4750
+sg118
+(dp201
+I4745
+S"        ['%s=%s;' % (c.key, c.value) for c in cookie.values()])"
+p202
+sI4746
+S'    try:'
+p203
+sI4747
+S'        from google.appengine.api import urlfetch'
+p204
+sI4748
+S'    except ImportError:'
+p205
+sI4749
+S'        req = urllib2.Request(url, data, headers)'
+p206
+sI4750
+S'        html = urllib2.urlopen(req).read()'
+p207
+sI4751
+S'    else:'
+p208
+sI4752
+S'        method = ((data is None) and urlfetch.GET) or urlfetch.POST'
+p209
+sI4753
+S'        while url is not None:'
+p210
+sI4754
+S'            response = urlfetch.fetch(url=url, payload=data,'
+p211
+ssg130
+S"(url='https://api.smash.gg/tournament/https://api.smas...expand[]=tagsByContainer?expand[]=tagsByContainer', data=None, headers={'Cookie': '', 'User-agent': 'Mozilla/5.0'}, cookie=<SimpleCookie: >, user_agent='Mozilla/5.0')"
+p212
+sg132
+S'fetch'
+p213
+sa(dp214
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p215
+sg111
+(dp216
+S'url'
+p217
+S'<urllib2.Request instance>'
+p218
+sS'opener'
+p219
+S'<urllib2.OpenerDirector instance>'
+p220
+sS'data'
+p221
+S'None'
+p222
+sS'timeout'
+p223
+S'<object object>'
+p224
+sS'opener.open'
+p225
+S'<bound method OpenerDirector.open of <urllib2.OpenerDirector instance>>'
+p226
+ssg117
+I154
+sg118
+(dp227
+I149
+S'        opener = build_opener(https_handler)'
+p228
+sI150
+S'    elif _opener is None:'
+p229
+sI151
+S'        _opener = opener = build_opener()'
+p230
+sI152
+S'    else:'
+p231
+sI153
+S'        opener = _opener'
+p232
+sI154
+S'    return opener.open(url, data, timeout)'
+p233
+sI155
+S''
+sI156
+S'def install_opener(opener):'
+p234
+sI157
+S'    global _opener'
+p235
+sI158
+S'    _opener = opener'
+p236
+ssg130
+S'(url=<urllib2.Request instance>, data=None, timeout=<object object>, cafile=None, capath=None, cadefault=False, context=None)'
+p237
+sg132
+S'urlopen'
+p238
+sa(dp239
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p240
+sg111
+(dp241
+S'meth'
+p242
+S'<bound method HTTPErrorProcessor.http_response of <urllib2.HTTPErrorProcessor instance>>'
+p243
+sS'req'
+p244
+S'<urllib2.Request instance>'
+p245
+sS'response'
+p246
+S'<addinfourl at 202518472L whose fp = <socket._fileobject object>>'
+p247
+ssg117
+I435
+sg118
+(dp248
+I430
+S''
+sI431
+S'        # post-process response'
+p249
+sI432
+S'        meth_name = protocol+"_response"'
+p250
+sI433
+S'        for processor in self.process_response.get(protocol, []):'
+p251
+sI434
+S'            meth = getattr(processor, meth_name)'
+p252
+sI435
+S'            response = meth(req, response)'
+p253
+sI436
+S''
+sI437
+S'        return response'
+p254
+sI438
+S''
+sI439
+S'    def _open(self, req, data=None):'
+p255
+ssg130
+S'(self=<urllib2.OpenerDirector instance>, fullurl=<urllib2.Request instance>, data=None, timeout=<object object>)'
+p256
+sg132
+S'open'
+p257
+sa(dp258
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p259
+sg111
+(dp260
+S'msg'
+p261
+S"'Not Found'"
+p262
+sS'code'
+p263
+S'404'
+p264
+sS'request'
+p265
+S'<urllib2.Request instance>'
+p266
+sS'response'
+p267
+S'<addinfourl at 202518472L whose fp = <socket._fileobject object>>'
+p268
+sS'hdrs'
+p269
+S'<httplib.HTTPMessage instance>'
+p270
+ssg117
+I548
+sg118
+(dp271
+I544
+S'        # According to RFC 2616, "2xx" code indicates that the client\'s'
+p272
+sI545
+S'        # request was successfully received, understood, and accepted.'
+p273
+sI546
+S'        if not (200 <= code < 300):'
+p274
+sI547
+S'            response = self.parent.error('
+p275
+sI548
+S"                'http', request, response, code, msg, hdrs)"
+p276
+sI549
+S''
+sI550
+S'        return response'
+p277
+sI551
+S''
+sI552
+S'    https_response = http_response'
+p278
+sI543
+S''
+ssg130
+S'(self=<urllib2.HTTPErrorProcessor instance>, request=<urllib2.Request instance>, response=<addinfourl at 202518472L whose fp = <socket._fileobject object>>)'
+p279
+sg132
+S'http_response'
+p280
+sa(dp281
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p282
+sg111
+(dp283
+S'self._call_chain'
+p284
+S'<bound method OpenerDirector._call_chain of <urllib2.OpenerDirector instance>>'
+p285
+sS'self'
+p286
+S'<urllib2.OpenerDirector instance>'
+p287
+sS'args'
+p288
+S"({301: [<urllib2.HTTPRedirectHandler instance>], 302: [<urllib2.HTTPRedirectHandler instance>], 303: [<urllib2.HTTPRedirectHandler instance>], 307: [<urllib2.HTTPRedirectHandler instance>], 'default': [<urllib2.HTTPDefaultErrorHandler instance>]}, 'default', 'http_error_default', <urllib2.Request instance>, <addinfourl at 202518472L whose fp = <socket._fileobject object>>, 404, 'Not Found', <httplib.HTTPMessage instance>)"
+p289
+ssg117
+I473
+sg118
+(dp290
+I468
+S'        if result:'
+p291
+sI469
+S'            return result'
+p292
+sI470
+S''
+sI471
+S'        if http_err:'
+p293
+sI472
+S"            args = (dict, 'default', 'http_error_default') + orig_args"
+p294
+sI473
+S'            return self._call_chain(*args)'
+p295
+sI474
+S''
+sI475
+S'# XXX probably also want an abstract factory that knows when it makes'
+p296
+sI476
+S'# sense to skip a superclass in favor of a subclass and when it might'
+p297
+sI477
+S'# make sense to include both'
+p298
+ssg130
+S"(self=<urllib2.OpenerDirector instance>, proto=404, *args=({301: [<urllib2.HTTPRedirectHandler instance>], 302: [<urllib2.HTTPRedirectHandler instance>], 303: [<urllib2.HTTPRedirectHandler instance>], 307: [<urllib2.HTTPRedirectHandler instance>], 'default': [<urllib2.HTTPDefaultErrorHandler instance>]}, 'default', 'http_error_default', <urllib2.Request instance>, <addinfourl at 202518472L whose fp = <socket._fileobject object>>, 404, 'Not Found', <httplib.HTTPMessage instance>))"
+p299
+sg132
+S'error'
+p300
+sa(dp301
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p302
+sg111
+(dp303
+S'args'
+p304
+S"(<urllib2.Request instance>, <addinfourl at 202518472L whose fp = <socket._fileobject object>>, 404, 'Not Found', <httplib.HTTPMessage instance>)"
+p305
+sS'result'
+p306
+g153
+sS'func'
+p307
+S'<bound method HTTPDefaultErrorHandler.http_error...lt of <urllib2.HTTPDefaultErrorHandler instance>>'
+p308
+ssg117
+I407
+sg118
+(dp309
+I402
+S'        # could.  Otherwise, they return the response.'
+p310
+sI403
+S'        handlers = chain.get(kind, ())'
+p311
+sI404
+S'        for handler in handlers:'
+p312
+sI405
+S'            func = getattr(handler, meth_name)'
+p313
+sI406
+S''
+sI407
+S'            result = func(*args)'
+p314
+sI408
+S'            if result is not None:'
+p315
+sI409
+S'                return result'
+p316
+sI410
+S''
+sI411
+S'    def open(self, fullurl, data=None, timeout=socket._GLOBAL_DEFAULT_TIMEOUT):'
+p317
+ssg130
+S"(self=<urllib2.OpenerDirector instance>, chain={301: [<urllib2.HTTPRedirectHandler instance>], 302: [<urllib2.HTTPRedirectHandler instance>], 303: [<urllib2.HTTPRedirectHandler instance>], 307: [<urllib2.HTTPRedirectHandler instance>], 'default': [<urllib2.HTTPDefaultErrorHandler instance>]}, kind='default', meth_name='http_error_default', *args=(<urllib2.Request instance>, <addinfourl at 202518472L whose fp = <socket._fileobject object>>, 404, 'Not Found', <httplib.HTTPMessage instance>))"
+p318
+sg132
+S'_call_chain'
+p319
+sa(dp320
+g109
+S'C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py'
+p321
+sg111
+(dp322
+S'fp'
+p323
+S'<addinfourl at 202518472L whose fp = <socket._fileobject object>>'
+p324
+sS'code'
+p325
+S'404'
+p326
+sS'hdrs'
+p327
+S'<httplib.HTTPMessage instance>'
+p328
+sS'req'
+p329
+S'<urllib2.Request instance>'
+p330
+sS'req.get_full_url'
+p331
+S'<bound method Request.get_full_url of <urllib2.Request instance>>'
+p332
+sS'msg'
+p333
+S"'Not Found'"
+p334
+sS'global HTTPError'
+p335
+S"<class 'urllib2.HTTPError'>"
+p336
+ssg117
+I556
+sg118
+(dp337
+I551
+S''
+sI552
+S'    https_response = http_response'
+p338
+sI553
+S''
+sI554
+S'class HTTPDefaultErrorHandler(BaseHandler):'
+p339
+sI555
+S'    def http_error_default(self, req, fp, code, msg, hdrs):'
+p340
+sI556
+S'        raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)'
+p341
+sI557
+S''
+sI558
+S'class HTTPRedirectHandler(BaseHandler):'
+p342
+sI559
+S'    # maximum number of redirections to any single URL'
+p343
+sI560
+S'    # this is needed because of the state that cookies introduce'
+p344
+ssg130
+S"(self=<urllib2.HTTPDefaultErrorHandler instance>, req=<urllib2.Request instance>, fp=<addinfourl at 202518472L whose fp = <socket._fileobject object>>, code=404, msg='Not Found', hdrs=<httplib.HTTPMessage instance>)"
+p345
+sg132
+S'http_error_default'
+p346
+sasS'pyver'
+p347
+S'Python 2.7.14: C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\python.exe (prefix: C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda)'
+p348
+sS'session'
+p349
+g104
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp350
+sS'etype'
+p351
+S"<class 'urllib2.HTTPError'>"
+p352
+sS'date'
+p353
+S'Thu Jun 07 20:56:52 2018'
+p354
+sS'response'
+p355
+g104
+(S's\xe7\x1d\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x000000000A5A0CE0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_rivalstourneywatch</td><td style="vertical-align:top;">:</td><td><div>3:bb017aec-6934-45a7-b0d1-24117cd39c3e<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/RivalsTourneyWatch</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/site</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^api/\\w+\\.py$</div></td></tr><tr><td><div>^api/get_tourneys/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_rivalstourneywatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_record_id</td><td style="vertical-align:top;">:</td><td><div>3L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_table</td><td style="vertical-align:top;">:</td><td><div>&lt;Table web2py_session_RivalsTourneyWatch (id, locked, client_ip, created_datetime, modified_datetime, unique_key, session_data)&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_unique_key</td><td style="vertical-align:top;">:</td><td><div>bb017aec-6934-45a7-b0d1-24117cd39c3e</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>c0762cbf4baf7f9af97c051e7fcb8083</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>3:bb017aec-6934-45a7-b0d1-24117cd39c3e</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_rivalstourneywatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>RivalsTourneyWatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Rivalstourneywatch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>api/get_tourneys.html</div></td></tr></table></div>'
+tRp356
+sS'locals'
+p357
+(dp358
+g61
+S'<addinfourl at 202518472L whose fp = <socket._fileobject object>>'
+p359
+sg6
+S'404'
+p360
+sg63
+S'<httplib.HTTPMessage instance>'
+p361
+sS'self'
+p362
+S'<urllib2.HTTPDefaultErrorHandler instance>'
+p363
+sS'req'
+p364
+S'<urllib2.Request instance>'
+p365
+sg57
+S"'Not Found'"
+p366
+sssS'traceback'
+p367
+S'Traceback (most recent call last):\n  File "C:\\Users\\Chubblezap\\web2py\\gluon\\restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers/api.py", line 44, in <module>\n  File "C:\\Users\\Chubblezap\\web2py\\gluon\\globals.py", line 419, in <lambda>\n    self._caller = lambda f: f()\n  File "C:\\Users\\Chubblezap\\web2py\\applications\\RivalsTourneyWatch\\controllers/api.py", line 12, in get_tourneys\n    leagueJSON = json.loads(fetch("https://api.smash.gg/tournament/" + t + "?expand[]=tagsByContainer"))\n  File "C:\\Users\\Chubblezap\\web2py\\gluon\\tools.py", line 4750, in fetch\n    html = urllib2.urlopen(req).read()\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 154, in urlopen\n    return opener.open(url, data, timeout)\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 435, in open\n    response = meth(req, response)\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 548, in http_response\n    \'http\', request, response, code, msg, hdrs)\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 473, in error\n    return self._call_chain(*args)\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 407, in _call_chain\n    result = func(*args)\n  File "C:\\Users\\Chubblezap\\AppData\\Local\\Programs\\Python\\Anaconda\\lib\\urllib2.py", line 556, in http_error_default\n    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)\nHTTPError: HTTP Error 404: Not Found\n'
+p368
+s.

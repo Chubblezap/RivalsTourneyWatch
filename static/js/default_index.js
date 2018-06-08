@@ -24,10 +24,10 @@ var app = function() {
     self.getTourneys = function(leaguename) {
         $.getJSON(get_tourneys_url,
         {
-            t: get_subleagues_url(leaguename)
+            t: leaguename
         },
            function (data) {
-               var test = data.page;
+               var test = data.tDict;
                //var get_url = data['access_url'];
                console.log(test);
         })
