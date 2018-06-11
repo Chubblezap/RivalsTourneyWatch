@@ -5,6 +5,8 @@
 <script src="{{=URL('static', 'js/vue.js')}}"></script>
 <script>
     var get_tourneys_url = "{{=URL('api', 'get_tourneys', hash_vars=False)}}";
+    var save_url = "{{=URL('api', 'save', hash_vars=False)}}";
+    var load_url = "{{=URL('api', 'load', hash_vars=False)}}";
 </script>
 
 
@@ -19,16 +21,25 @@
           </div>
       </div>
       <div class="bar container">
-          <div class="selector padded">
-              <select v-model="selected_tourney">
-                  <option disabled="disabled" value="">Select tourney...</option>
-                  <option v-for="tourney in tourneys">${tourney.title}</option>
+          <div class="selector quarter padded">
+              <select v-model="selected_league" v-on:change="switchLeagues">
+                  <option disabled="disabled" value="">Select league...</option>
+                  <option v-for="league in tourneys">${league.name}</option>
               </select>
           </div>
+          <div v-if="selected_league != ''" class="selector quarter padded" v-on:change="switchSubleagues">
+              <select v-model="selected_subleague">
+                  <option value="">Select subleague...</option>
+                  <option v-for="subleague in selected_league_dict['subleagues']">${subleague.name}</option>
+              </select>
+          </div>
+          {{if auth.user is not None:}}
+          <button v-on:click="getAllTourneys">Update</button>
+          {{pass}}
       </div>
       <div class="playercontainer center">
           <div v-for="player in players" class="infocard rounded padded lifted container">
-              ${player}
+              [${player.standing}]     ${player.tag}:     ${player.name}
           </div>
       </div>
 

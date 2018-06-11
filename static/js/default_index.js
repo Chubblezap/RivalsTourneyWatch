@@ -27,31 +27,79 @@ var app = function() {
             t: leaguename
         },
            function (data) {
-               var test = data.tDict;
-               //var get_url = data['access_url'];
-               console.log(test);
+               var league = data.tDict;
+               self.vue.tourneys.push(league);
         })
     }
 
+    self.getAllTourneys = function() {
+        self.vue.tourneys = [];
+        self.getTourneys("rivals-championship-series");
+        self.getTourneys("rivals-championship-series-season-2");
+        //self.save();
+    }
+
+    self.switchLeagues = function() {
+        for (var i=0; i<self.vue.tourneys.length; i++){
+            if (self.vue.selected_league == self.vue.tourneys[i]['name']) {
+                self.vue.selected_league_dict = self.vue.tourneys[i];
+            }
+        }
+        self.vue.selected_subleague = '';
+        self.vue.selected_subleague_dict = null;
+        self.vue.players = self.vue.selected_league_dict['standings'];
+    }
+
+    self.switchSubleagues = function() {
+        for (var i=0; i<self.vue.selected_league_dict['subleagues'].length; i++){
+            if (self.vue.selected_subleague == self.vue.selected_league_dict['subleagues'][i]['name']) {
+                self.vue.selected_subleague_dict = self.vue.selected_league_dict['subleagues'][i];
+            }
+        }
+        self.vue.players = self.vue.selected_subleague_dict['standings'];
+    }
+/*
+    self.save = function(){
+        $.post(save_url,
+        {
+            d: self.vue.tourneys
+        });
+    }
+
+    self.load = function(){
+        $.getJSON(load_url,{},
+           function (data) {
+               var t = data.tDict;
+               self.vue.tourneys = t;
+        })
+    }
+*/
     self.vue = new Vue({
         el: "#vue-div",
         delimiters: ['${', '}'],
         unsafeDelimiters: ['!{', '}'],
         data: {
-            selected_tourney: '',
+            selected_league: '',
+            selected_league_dict: null,
+            selected_subleague: '',
+            selected_subleague_dict: null,
             tourneys: [],
             slugs: [],
-            players: ['bob', 'boy', 'lammy'],
+            players: [],
         },
         methods: {
-            getTourneys: self.getTourneys
+            getTourneys: self.getTourneys,
+            getAllTourneys: self.getAllTourneys,
+            switchLeagues: self.switchLeagues,
+            switchSubleagues: self.switchSubleagues,
+            //save: self.save,
+            //load: self.load
         }
 
     });
 
-    self.getTourneys("rivals-championship-series");
+    //self.load();
     $("#vue-div").show();
-
     return self;
 };
 

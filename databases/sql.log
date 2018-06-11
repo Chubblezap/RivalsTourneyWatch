@@ -112,3 +112,9 @@ CREATE TABLE "web2py_session_RivalsTourneyWatch"(
     "session_data" BLOB
 );
 success!
+timestamp: 2018-06-10T17:29:17.262000
+CREATE TABLE "tourneydict"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "tourneys" CHAR(512)
+);
+success!

@@ -12,16 +12,9 @@ import datetime
 def get_user_email():
     return auth.user.email if auth.user else None
 
-db.define_table('player',
-                Field('name', 'string'),
-                Field('steamurl', 'string'),
-                Field('score', 'integer')
-               )
-
-db.define_table('tourney',
-                Field('title', 'string'),
-                Field('playernum', 'integer'),
-                Field('players')
+db.define_table('tourneydict',
+                Field('id', default=1),
+                Field('tourneys')
                )
 
 # after defining tables, uncomment below to enable auditing

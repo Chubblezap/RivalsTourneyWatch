@@ -13,6 +13,16 @@ def get_tourneys():
     tDict = dict([('name', leagueJSON['entities']['tournament']['name'])])
     subleagueIDs = []
     sDicts = []
+    leagueplayers = []
+    # Get league standings
+    leagueplayerJSON = json.loads(fetch("https://api.smash.gg/standing/" + t + "/getAllEvents?expand[]=participants&mutations[]=playerData&top=25"))
+    for p in leagueplayerJSON['entities']['standing']:
+        lplayerstanding = p['standing']
+        lplayerID = p['entityId']
+        for pl in leagueplayerJSON['entities']['player']:
+            if (pl['id'] == lplayerID):
+                leagueplayers.append(dict([('standing',lplayerstanding), ('tag', pl['gamerTag']), ('name', pl['name'])]))
+    tDict['standings'] = leagueplayers
     # Get subleague IDs (NA, EU)
     for i in leagueJSON['entities']['entityContainerTag']:
         subleagueIDs.append(i['entityId'])
@@ -39,3 +49,13 @@ def get_tourneys():
     return response.json(dict(
         tDict=tDict
     ))
+
+#def save():
+#    d = request.vars.d
+#    json.dump(d, open("tourn.json", 'w'))
+
+#def load():
+#    tDict = json.load(open("tourn.json")).as_dict()
+#    return response.json(dict(
+#        tDict=tDict
+#    ))
