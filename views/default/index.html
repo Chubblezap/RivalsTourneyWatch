@@ -5,7 +5,7 @@
 <script src="{{=URL('static', 'js/vue.js')}}"></script>
 <script>
     var get_tourneys_url = "{{=URL('api', 'get_tourneys', hash_vars=False)}}";
-    var save_url = "{{=URL('api', 'save', hash_vars=False)}}";
+    var save_url = "{{=URL('api', 'save',  user_signature=True)}}";
     var load_url = "{{=URL('api', 'load', hash_vars=False)}}";
 </script>
 

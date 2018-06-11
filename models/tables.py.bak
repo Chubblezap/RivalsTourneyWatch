@@ -12,10 +12,21 @@ import datetime
 def get_user_email():
     return auth.user.email if auth.user else None
 
-db.define_table('tourneydict',
-                Field('id', default=1),
-                Field('tourneys')
+db.define_table('league',
+                Field('name', 'string')
                )
+
+db.define_table('subleague',
+                Field('name', 'string'),
+                Field('parent', 'string')
+                )
+
+db.define_table('player',
+                Field('tag', 'string'),
+                Field('name', 'string'),
+                Field('standing', 'integer'),
+                Field('parent', 'string')
+                )
 
 # after defining tables, uncomment below to enable auditing
 # auth.enable_record_versioning(db)

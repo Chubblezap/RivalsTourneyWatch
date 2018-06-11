@@ -50,12 +50,52 @@ def get_tourneys():
         tDict=tDict
     ))
 
-#def save():
-#    d = request.vars.d
-#    json.dump(d, open("tourn.json", 'w'))
+@auth.requires_signature()
+def save():
+    if request.vars.dic is not None:
+        d = json.loads(request.vars.dic)
+        for le in d:
+            db.league.update_or_insert(name=le['name']) # Insert all league names.
+            for pl in le['standings']:
+                db.player.update_or_insert((db.player.name==pl['name']) & (db.player.tag==pl['tag']) & (db.player.parent==le['name']),
+                                           name=pl['name'], tag=pl['tag'], parent=le['name'], standing=pl['standing']) # Insert all league-bound players.
+            for s in le['subleagues']:
+                db.subleague.update_or_insert(name=s['name'], parent=le['name']) # Insert all subleague names, bound to parent league name.
+                for p in s['standings']:
+                    db.player.update_or_insert((db.player.name==p['name']) & (db.player.tag==p['tag']) & (db.player.parent==s['name']),
+                                               name=p['name'], tag=p['tag'], parent=s['name'], standing=p['standing']) # Insert all subleague-bound players.
+    else:
+        return
 
-#def load():
-#    tDict = json.load(open("tourn.json")).as_dict()
-#    return response.json(dict(
-#        tDict=tDict
-#    ))
+def load():
+    tArr = []
+    plarray = []
+    parray = []
+    subarray = []
+    leagues = db().select(db.league.ALL)
+    subleagues = db().select(db.subleague.ALL)
+    players = db().select(db.player.ALL)
+    for le in leagues:
+        leaguedict = dict([('name', le.name)])
+
+        plarray = []
+        for pl in players:
+            if pl.parent == le.name:
+                plarray.append(dict([('name', pl.name), ('tag', pl.tag), ('standing', pl.standing)]))
+        leaguedict['standings'] = plarray
+
+        subarray = []
+        for s in subleagues:
+            if s.parent == le.name:
+                subdict = dict([('name', s.name)])
+                parray = []
+                for p in players:
+                    if p.parent == s.name:
+                        parray.append(dict([('name', p.name), ('tag', p.tag), ('standing', p.standing)]))
+                subdict['standings'] = parray
+                subarray.append(subdict)
+        leaguedict['subleagues'] = subarray
+        tArr.append(leaguedict)
+    return response.json(dict(
+        tArr=tArr
+    ))

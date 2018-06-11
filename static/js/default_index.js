@@ -36,7 +36,9 @@ var app = function() {
         self.vue.tourneys = [];
         self.getTourneys("rivals-championship-series");
         self.getTourneys("rivals-championship-series-season-2");
-        //self.save();
+        setTimeout(function() {
+            self.save();
+        }, 5000);
     }
 
     self.switchLeagues = function() {
@@ -58,22 +60,24 @@ var app = function() {
         }
         self.vue.players = self.vue.selected_subleague_dict['standings'];
     }
-/*
+
     self.save = function(){
+        var self = this;
+        var dic = JSON.stringify(self.vue.tourneys);
+        console.log(dic);
         $.post(save_url,
         {
-            d: self.vue.tourneys
+            dic: dic
         });
     }
 
     self.load = function(){
         $.getJSON(load_url,{},
            function (data) {
-               var t = data.tDict;
-               self.vue.tourneys = t;
+               self.vue.tourneys = data.tArr;
         })
     }
-*/
+
     self.vue = new Vue({
         el: "#vue-div",
         delimiters: ['${', '}'],
@@ -92,13 +96,13 @@ var app = function() {
             getAllTourneys: self.getAllTourneys,
             switchLeagues: self.switchLeagues,
             switchSubleagues: self.switchSubleagues,
-            //save: self.save,
-            //load: self.load
+            save: self.save,
+            load: self.load
         }
 
     });
 
-    //self.load();
+    self.load();
     $("#vue-div").show();
     return self;
 };
